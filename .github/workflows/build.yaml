@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
 
-jobs:
+jobs: 
   pipeline:
     uses: KubeGuardd/kubeguard-main/.github/workflows/dev-pipeline.yaml@main
     with:
