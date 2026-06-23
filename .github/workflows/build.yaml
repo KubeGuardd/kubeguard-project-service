@@ -12,7 +12,7 @@ jobs:
       dockerfile_path: ./Dockerfile
       build_context: .
       working_directory: .
-      sonar_project_key: KubeGuardd_kubeguard-gateway
+      sonar_project_key: KubeGuardd_kubeguard-project-service
       notification_recipients: ksurya112003@gmail.com
     secrets:
       ACR_LOGIN_SERVER: ${{ secrets.ACR_LOGIN_SERVER }}
